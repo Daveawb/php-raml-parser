@@ -1,0 +1,5 @@
+function describe() {
+    phpspec describe Daveawb/RAMLParser/$@
+}
+
+alias d=describe

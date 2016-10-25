@@ -1,0 +1,4 @@
+suites:
+  main:
+    namespace: Daveawb\RAMLParser
+    psr4_prefix: Daveawb\RAMLParser
