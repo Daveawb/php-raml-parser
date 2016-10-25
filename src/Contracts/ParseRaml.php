@@ -2,6 +2,8 @@
 
 namespace Daveawb\RAMLParser\Contracts;
 
+use Daveawb\RAMLParser\Definition;
+
 /**
  * Interface ParseRaml
  */
@@ -13,7 +15,7 @@ interface ParseRaml
      * @param string $url
      * @return string
      */
-    public function fromUrl(string $url): string;
+    public function fromUrl(string $url): Definition;
 
     /**
      * Parse a RAML file from a path.
@@ -21,5 +23,5 @@ interface ParseRaml
      * @param string $filePath
      * @return string
      */
-    public function fromFile(string $filePath): string;
+    public function fromFile(string $filePath): Definition;
 }

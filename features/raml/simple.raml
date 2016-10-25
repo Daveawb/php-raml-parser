@@ -1,0 +1,17 @@
+#%RAML 1.0
+title: Parser Test File
+description: A test file for the PHP RAML Parser
+baseUri: http://{subdomain}.local.dev/{version}
+version: v1
+documentation:
+  - title: Home
+    content: |
+      Here is a long narrative that explains in detail how "Home" functions. This could, and probably should
+      be Lorum ipsum text but for the sake of my own fingers I decided to type it out. Oh, how silly of me.
+  - title: Links
+    content: |
+      Here I go again, my poor fingers! I promised before I would use a text generator but woefully
+      find myself typing once again.
+baseUriParameters:
+  subdomain:
+    description: A subdomain that can be used to access this resource.
